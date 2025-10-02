@@ -12,11 +12,58 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 .daftar {
     width: 100%;
-    height: auto;
-    margin-top: 20px;
-    border-radius: 10px;
-    margin-left: 20px;
-    list-style-type: square;
+    max-width: 400px;
+    margin: 32px auto 24px auto;
+    padding: 24px 20px;
+    border-radius: 16px;
+    background: linear-gradient(120deg, #e3f0ff 70%, #fc5185 30%);
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+    font-family: 'comic sans ms', cursive, sans-serif;
+}
+
+.daftar h3 {
+    font-size: 24px;
+    color: #0047cc;
+    margin-bottom: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.daftar ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.daftar ul li {
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.daftar ul li::before {
+    content: "📑";
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.daftar ul li a {
+    color: #364f6b;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 8px;
+    transition: background 0.2s, color 0.2s;
+}
+
+.daftar ul li a:hover {
+    background: #0047cc;
+    color: #fff;
+    box-shadow: 0 2px 8px rgba(0,81,173,0.08);
+    text-decoration: none;
+    transform: scale(1.05);
 }
 
 .gambar-satu {
