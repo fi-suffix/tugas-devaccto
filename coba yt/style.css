@@ -1,0 +1,362 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+.logo {
+font-size: 30px;
+font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.daftar {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 20px;
+    list-style-type: square;
+}
+
+.gambar-satu {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'open sans', sans-serif;
+}
+
+.wrapper-1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center; /* Tambahkan ini */
+}
+
+.logo a{
+    font-size: 16px;
+    font-weight: 800;
+    font-family: 'comic sans-ms';
+    color:#0051ad;
+}
+
+.menu {
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 20px;
+}
+.menu ul {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.menu ul li{
+    list-style: none;
+}
+
+nav {
+    width:100% ;
+    margin:auto;
+    display: flex;
+    line-height: 80px;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    background: skyblue;
+}
+
+
+
+ nav ul li a {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    padding:0px 16px 0px 16px;
+    text-decoration: none;
+}
+
+ nav ul li a:hover {
+    text-decoration: underline;
+}
+section{
+    margin: auto;
+    display: flex;
+    margin-bottom: 50px;
+}
+
+.kolom {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+ .kolom {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364f6b;
+ }
+
+ h2{
+font-family: 'comic sans-ms';
+font-weight: 800px;
+font-size: 45px;
+margin-bottom: 20px;
+color: #364f6b;
+width: 100%;
+ }
+
+a.tbl-biru {
+    background: #0047cc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+a.tbl-biru:hover {
+background: #fc5185;
+text-decoration: none;
+scale: 1.1;
+}
+
+a.tbl-pink {
+    background:#0047cc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color:#ffffff;
+    cursor:pointer;
+    font-weight:bold;
+    transition: all 0.3s ease;
+}
+
+a.tbl-pink:hover {
+    background:#fc5185 ;
+    text-decoration: none;
+    scale: 1.1;
+}
+
+p {
+    margin: 10px;
+    padding: 10px 0px 10px 0px;
+
+}
+a.tbl-biru {
+    background: #0047cc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+  .tengah {
+    text-align: center;
+    width: 85%;
+  }
+  .tutor-list {
+    width: 100%;
+    position: relative;
+    display:  flex;
+    flex-wrap: wrap;
+  }
+  .kartu-tutor {
+    width: 30px;
+    margin: 0 auto;
+  }
+  .kartu-tutor img {
+    width: 700%;
+    border-radius: 50%;
+
+  }
+  .kartu-tutor p {
+    font-family:'comic sans ms';
+    font-weight: 800;
+    font-size: 18px;
+    text-align: center;
+    color:#364f6b;
+
+  }
+#contact, section#contact, section[id="#contact"] {
+    display: block;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    background: #e3f0ff;
+    padding: 32px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+}
+
+.form-fieldset {
+    border: 2px solid #0047cc;
+    border-radius: 12px;
+    padding: 16px 12px;
+    padding-right: 50px;
+    margin-bottom: 12px;
+    background: #f7fbff;
+}
+
+.form-fieldset legend {
+    color: #0047cc;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'comic sans ms', cursive, sans-serif;
+}
+
+.form-input,
+.form-textarea {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1.5px solid #b3d1ff;
+    border-radius: 8px;
+    font-size: 16px;
+    font-family: 'open sans', sans-serif;
+    margin-bottom: 8px;
+    background: #fff;
+    transition: border-color 0.2s;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+    border-color: #fc5185;
+    outline: none;
+}
+
+label {
+    font-family: 'comic sans ms', cursive, sans-serif;
+    font-weight: 600;
+    color: #364f6b;
+    margin-bottom: 4px;
+    display: block;
+}
+
+.note {
+    font-size: 13px;
+    color: #888;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bold;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    cursor: pointer;
+    transition: background 0.2s, scale 0.2s;
+}
+
+.btn-submit {
+    background: #0047cc;
+    color: #fff;
+}
+
+.btn-submit:hover {
+    background: #fc5185;
+    scale: 1.05;
+}
+
+.btn-reset {
+    background: #fc5185;
+    color: #fff;
+}
+
+.btn-reset:hover {
+    background: #0047cc;
+    scale: 1.05;
+}
+
+.footer {
+    background: #111;
+    color: #fff;
+    padding: 40px 0 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-top: 40px;
+}
+
+.footer-kiri,
+.footer-tengah,
+.footer-kanan {
+    flex: 1 1 200px;
+    margin: 0 24px;
+}
+
+.footer h3 {
+    font-family: 'comic sans ms', cursive, sans-serif;
+    font-size: 22px;
+    margin-bottom: 16px;
+    color: #fc5185;
+}
+
+.footer-tengah ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-tengah ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.2s;
+    padding: 4px 0;
+    border-radius: 4px;
+}
+
+.footer-tengah ul li a:hover {
+    color: #fc5185;
+    background: rgba(252,81,133,0.08);
+}
+
+.footer-kanan p,
+.footer-kiri p {
+    font-size: 15px;
+    margin-bottom: 8px;
+}
+
+.copyright {
+    text-align: center;
+    color: #b3d1ff;
+    font-size: 14px;
+    margin-top: 24px;
+    width: 100%;
+}
+
+
