@@ -237,6 +237,51 @@ a.tbl-biru {
     color:#364f6b;
 
   }
+ .deskripsi-patners {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'comic sans-ms';
+    color: #364f6b;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.kartu-partner1 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+}
+.kartu-partner2 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+}
+.kartu-partner3 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+}
+.kartu-partner4 img {
+    width: 200px;
+    height: auto;
+    border-radius: 10px;
+    margin: 20px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+}
+.partners-list {
+    width: 100%;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+} 
 #contact, section#contact, section[id="#contact"] {
     display: block;
     flex-direction: column;
