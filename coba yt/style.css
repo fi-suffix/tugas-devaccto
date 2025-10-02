@@ -63,7 +63,7 @@ body {
     list-style: none;
 }
 
-nav {
+.navbar {
     width:100% ;
     margin:auto;
     display: flex;
@@ -76,7 +76,7 @@ nav {
 
 
 
- nav ul li a {
+ .navbar ul li a {
     color: black;
     font-weight: bold;
     text-align: center;
@@ -84,7 +84,7 @@ nav {
     text-decoration: none;
 }
 
- nav ul li a:hover {
+ .navbar ul li a:hover {
     text-decoration: underline;
 }
 section{
