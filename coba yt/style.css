@@ -56,6 +56,10 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
     padding: 6px 12px;
     border-radius: 8px;
     transition: background 0.2s, color 0.2s;
+    -webkit-transition: background 0.2s, color 0.2s;
+    -moz-transition: background 0.2s, color 0.2s;
+    -ms-transition: background 0.2s, color 0.2s;
+    -o-transition: background 0.2s, color 0.2s;
 }
 
 .daftar ul li a:hover {
@@ -68,7 +72,7 @@ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
 
 .gambar-satu {
     width: 100%;
-    height: auto;
+    height: 500px;
     margin-top: 20px;
     border-radius: 10px;
 }
@@ -83,7 +87,7 @@ body {
     width: 80%;
     margin: auto;
     display: flex;
-    justify-content: center; /* Tambahkan ini */
+    justify-content: center; 
 }
 
 .logo a{
@@ -103,6 +107,8 @@ body {
 .menu ul {
     display: flex;
     flex-direction: row;
+    gap: 8px;
+    align-items: center;
     
 }
 
@@ -110,30 +116,82 @@ body {
     list-style: none;
 }
 
-.navbar {
-    width:100% ;
-    margin:auto;
+.menu ul li a {
+    display: inline-block;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
+}
+
+.menu ul li a.tbl-biru {
+    margin-bottom: 5px;
+    background: #0047cc;
+    color: #fff;
+    border-radius: 8px;      
+    font-weight: bold;
+    transition: background 0.2s, scale 0.2s;
+    padding: 1px 5px;
     display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    min-width: 120px;    
+    box-sizing: border-box;
+}
+
+.menu ul li a.tbl-biru:hover {
+    background: #fc5185;
+    scale: 1.05;
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        line-height: normal;
+        padding: 0;
+    }
+    .wrapper-1 {
+        width: 100%;
+        padding: 0 8px;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 0;
+        align-items: stretch;
+        width: 100%;
+    }
+    .menu ul li {
+        width: 100%;
+    }
+    .menu ul li a,
+    .menu ul li a.tbl-biru {
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 12px;
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+}
+
+.navbar {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     line-height: 80px;
     position: sticky;
-    position: -webkit-sticky;
-    top:0;
+    top: 0;
     background: skyblue;
+    z-index: 100;
 }
 
-
-
- .navbar ul li a {
-    color: black;
-    font-weight: bold;
-    text-align: center;
-    padding:0px 16px 0px 16px;
-    text-decoration: none;
-}
-
- .navbar ul li a:hover {
-    text-decoration: underline;
-}
 section{
     margin: auto;
     display: flex;
@@ -169,7 +227,6 @@ a.tbl-biru {
     color: white;
     cursor: pointer;
     font-weight: bold;
-    transition: all 0.3s ease;
 }
 
 a.tbl-biru:hover {
