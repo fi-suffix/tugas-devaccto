@@ -624,4 +624,172 @@ label {
     margin-bottom: 20px;
 }
 
+/* Responsive Images */
+img, .gambar-satu {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Responsive Section & Wrapper */
+.wrapper-1, .wrapper-2 {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 16px;
+    box-sizing: border-box;
+}
+
+section {
+    flex-direction: column;
+    margin-bottom: 50px;
+    width: 100%;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+/* Responsive Kolom */
+.kolom {
+    margin: 32px auto;
+    width: 100%;
+    max-width: 700px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+/* Responsive Tutor & Partner Cards */
+.tutor-list, .partners-list {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.kartu-tutor, .kartu-partner1, .kartu-partner2, .kartu-partner3, .kartu-partner4 {
+    width: 180px;
+    margin: 10px auto;
+    text-align: center;
+}
+
+.kartu-tutor img, .kartu-partner1 img, .kartu-partner2 img, .kartu-partner3 img, .kartu-partner4 img {
+    width: 100%;
+    max-width: 180px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Responsive Footer */
+.footer {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    padding: 32px 8px 16px 8px;
+}
+.footer-kiri, .footer-tengah, .footer-kanan {
+    min-width: 220px;
+    margin: 0 0 24px 0;
+}
+
+/* Responsive Daftar Isi */
+.daftar {
+    width: 100%;
+    max-width: 400px;
+    margin: 32px auto 24px auto;
+    padding: 24px 12px;
+}
+
+/* Responsive Form */
+form, .contact-form {
+    width: 100%;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+
+.form-fieldset {
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
+    padding: 16px 12px;
+}
+
+/* Responsive Sign Up Section */
+#sign-up {
+    max-width: 400px;
+    margin: 32px auto;
+    padding: 24px 12px;
+}
+
+/* Responsive Navbar & Menu */
+@media (max-width: 900px) {
+    .navbar {
+        line-height: 60px;
+    }
+    h2 {
+        font-size: 32px;
+    }
+    .kolom {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 700px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+        line-height: normal;
+        padding: 0;
+    }
+    .wrapper-1 {
+        width: 100%;
+        padding: 0 8px;
+    }
+    .menu ul {
+        flex-direction: column;
+        gap: 0;
+        align-items: stretch;
+        width: 100%;
+    }
+    .menu ul li {
+        width: 100%;
+    }
+    .menu ul li a,
+    .menu ul li a.tbl-biru {
+        width: 100%;
+        margin: 2px 0;
+        border-radius: 12px;
+        font-size: 17px;
+        box-sizing: border-box;
+    }
+    .footer {
+        flex-direction: column;
+        align-items: stretch;
+        gap: 0;
+    }
+    .footer-kiri, .footer-tengah, .footer-kanan {
+        margin-bottom: 16px;
+        min-width: unset;
+    }
+    .daftar {
+        max-width: 98vw;
+        padding: 16px 4px;
+    }
+    .kolom {
+        max-width: 98vw;
+        padding: 0 4px;
+    }
+    #sign-up {
+        max-width: 98vw;
+        padding: 16px 4px;
+    }
+    .contact-form, form {
+        max-width: 98vw;
+        padding: 0 4px;
+    }
+    .form-fieldset {
+        max-width: 98vw;
+        padding: 12px 4px;
+    }
+}
+
 
