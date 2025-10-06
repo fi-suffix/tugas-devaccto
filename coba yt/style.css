@@ -359,13 +359,31 @@ a.tbl-biru {
     box-shadow: 0 4px 16px rgba(0,81,173,0.08);
 }
 
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
 .form-fieldset {
+    width: 100%;
+    max-width: 400px;
+    margin: 16px auto;
     border: 2px solid #0047cc;
     border-radius: 12px;
-    padding: 16px 12px;
-    padding-right: 50px;
-    margin-bottom: 12px;
+    padding: 16px 20px;
     background: #f7fbff;
+    box-sizing: border-box;
+}
+
+.form-fieldset label,
+.form-fieldset input,
+.form-fieldset textarea {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .form-fieldset legend {
@@ -574,5 +592,41 @@ label {
   transform: scale(1.03);
 }
 
+.caption-daftar {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    color: #364f6b;
+    margin-top: 30px;
+}
+
+.submit-daftar {
+    background: #0047cc;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+    font-size: 18px;
+    transition: background 0.2s, scale 0.2s;
+}
+
+.deskripsi {
+    text-align: center;
+    font-size: 20px;
+    color: #555;
+}
+
+.sign-up {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 800;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    color: #364f6b;
+    margin-bottom: 20px;
+}
 
 
