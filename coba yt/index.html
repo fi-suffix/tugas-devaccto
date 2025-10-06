@@ -129,6 +129,25 @@
                         </div>
                     </div>
                 </section>
+      <!-- Untuk sign up -->
+                 <section id="sign-up">
+    <h2>Sign Up</h2>
+    <p>Buat akun baru dengan mengisi data di bawah ini.</p>
+
+    <form action="https://formspree.io/f/xwkgoeql" method="POST">
+      <label for="nama-signup">Nama Lengkap:</label>
+      <input type="text" id="nama-signup" name="nama" required>
+
+      <label for="email-signup">Email:</label>
+      <input type="email" id="email-signup" name="email" required>
+
+      <label for="password-signup">Kata Sandi:</label>
+      <input type="password" id="password-signup" name="password" minlength="8" required>
+
+      <button type="submit">Daftar Sekarang</button>
+    </form>
+  </section>
+    
 
 <section id="contact">
             <h2 class="section-title">Hubungi Kami</h2>
@@ -146,71 +165,61 @@
         </p>
 
         <!-- kirim pesan 💌💌 -->
-        <h2>Kirim Pesan</h2>
+       <form action="https://formspree.io/f/xvgwqqgp" method="POST">
+  <fieldset class="form-fieldset">
+    <legend><strong>Informasi Pribadi</strong></legend>
 
-        <form class="contact-form">
-          <fieldset class="form-fieldset">
-            <legend><strong>Informasi Pribadi</strong></legend>
+    <label for="nama">Nama Lengkap:</label>
+    <input
+      type="text"
+      id="nama"
+      name="nama"
+      placeholder="Masukkan nama lengkap Anda"
+      required
+    />
 
-            <label for="nama">Nama Lengkap:</label>
-            <input
-              type="text"
-              id="nama"
-              name="nama"
-              placeholder="Masukkan nama lengkap Anda"
-              class="form-input"
-            />
+    <label for="email">Email Address:</label>
+    <input
+      type="email"
+      id="email"
+      name="email"
+      placeholder="your.email@example.com"
+      required
+    />
 
-            <label for="email">Email Address:</label>
-            <input
-              type="email"
-              id="email"
-              name="email"
-              placeholder="your.email@example.com"
-              class="form-input"
-            />
+    <label for="telepon">Nomor Telepon:</label>
+    <input
+      type="tel"
+      id="telepon"
+      name="telepon"
+      placeholder="081-2345-6789"
+    />
+  </fieldset>
 
-            <label for="telepon">Nomor Telepon:</label>
-            <input
-              type="tel"
-              id="telepon"
-              name="telepon"
-              placeholder="081-2345-6789"
-              class="form-input"
-            />
-            <span class="note">Format: 081-2345-6789</span>
-          </fieldset>
+  <fieldset class="form-fieldset">
+    <legend><strong>Detail Pesan</strong></legend>
 
-          <fieldset class="form-fieldset">
-            <legend><strong>Detail Pesan</strong></legend>
+    <label for="subjek">Subjek:</label>
+    <input
+      type="text"
+      id="subjek"
+      name="subjek"
+      placeholder="Subjek pesan Anda"
+      required
+    />
 
-            <label for="subjek">Subjek:</label>
-            <input
-              type="text"
-              id="subjek"
-              name="subjek"
-              placeholder="Subjek pesan Anda"
-              class="form-input"
-            />
+    <label for="pesan">Pesan:</label>
+    <textarea
+      id="pesan"
+      name="pesan"
+      rows="5"
+      placeholder="Tulis pesan Anda di sini..."
+      required
+    ></textarea>
+  </fieldset>
 
-            <label for="pesan">Pesan:</label>
-            <textarea
-              id="pesan"
-              name="pesan"
-              rows="5"
-              placeholder="Tulis pesan Anda di sini..."
-              class="form-textarea"
-            ></textarea>
-            <span class="note"
-              >Minimal 20 karakter, maksimal 1000 karakter</span
-            >
-
-            <label>
-              <input type="checkbox" name="newsletter" />
-              Saya ingin menerima berita kesehatan terbaru dan tips dari Anda.
-            </label>
-          </fieldset>
-
+  <button type="submit" class="btn btn-submit">Kirim Pesan</button>
+</form>
           <div class="buttons">
             <button type="submit" class="btn btn-submit">Kirim Pesan</button>
             <button type="reset" class="btn btn-reset">Reset Form</button>
