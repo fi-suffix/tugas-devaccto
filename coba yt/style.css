@@ -66,10 +66,22 @@
 }
 
 .gambar-satu {
-    width: 100%;
-    height: 500px;
+    width: 50%;
+    height: 50%;
     margin-top: 20px;
     border-radius: 10px;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+#gambar-dua {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+    margin-top: 20px;
+    margin-left: 35%;
 }
 
 body {
@@ -629,6 +641,7 @@ img, .gambar-satu {
     max-width: 100%;
     height: auto;
     display: block;
+    align-items: center;
 }
 
 /* Responsive Section & Wrapper */
@@ -789,6 +802,51 @@ form, .contact-form {
     .form-fieldset {
         max-width: 98vw;
         padding: 12px 4px;
+    }
+}
+
+/* Untuk bagian "Apa itu ginjal?" dan gambar ginjal satu */
+#home {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 32px;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#home .kolom {
+    flex: 1 1 300px;
+    margin: 0;
+    max-width: 600px;
+}
+
+.gambar-satu {
+    width: 180px;
+    height: auto;
+    margin-top: 0;
+    margin-left: 24px;
+    border-radius: 10px;
+    align-self: flex-start;
+    box-shadow: 0 4px 16px rgba(0,81,173,0.08);
+    display: block;
+}
+
+/* Responsive: gambar turun ke bawah di layar sempit */
+@media (max-width: 700px) {
+    #home {
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+    }
+    #home .kolom {
+        max-width: 98vw;
+    }
+    .gambar-satu {
+        width: 70vw;
+        margin-left: 0;
+        margin-top: 16px;
     }
 }
 
