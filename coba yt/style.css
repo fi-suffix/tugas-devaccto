@@ -102,8 +102,7 @@
     height: auto;
     border-radius: 10px;
     box-shadow: 0 4px 16px rgba(0,81,173,0.08);
-    margin-top: 20px;
-    margin-left: 35%;
+    margin: auto;
 }
 
 body {
@@ -228,8 +227,7 @@ section{
 }
 
 .kolom {
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin: auto;
 }
 
  .kolom {
@@ -237,6 +235,12 @@ section{
     font-weight: bold;
     font-family: 'comic sans-ms';
     color: #364f6b;
+ }
+
+ .deskripsi {
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
  }
 
  h2{
@@ -297,6 +301,7 @@ a.tbl-biru {
 }
 
   .tengah {
+    margin: auto;
     text-align: center;
     width: 85%;
   }
