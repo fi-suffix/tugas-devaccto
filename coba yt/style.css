@@ -5,6 +5,19 @@
 
 }
 
+.logo {
+    font-size: 24px;
+    font-weight: 800;
+    font-family: 'comic sans-ms';
+    color:#ffffff;
+    background-color: #111;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+}
+
 .daftar {
     width: 100%;
     max-width: 400px;
@@ -63,6 +76,15 @@
     box-shadow: 0 2px 8px rgba(0,81,173,0.08);
     text-decoration: none;
     transform: scale(1.05);
+}
+
+.judul-web {
+    text-align: center;
+    font-size: 36px;
+    font-weight: 800;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    color: #364f6b;
+    margin-top: 30px;
 }
 
 .gambar-satu {
