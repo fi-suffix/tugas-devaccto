@@ -6,16 +6,15 @@
 }
 
 .logo {
-    font-size: 24px;
-    font-weight: 800;
-    font-family: 'comic sans-ms';
-    color:#ffffff;
-    background-color: #111;
-    border-radius: 50px;
-    -webkit-border-radius: 50px;
-    -moz-border-radius: 50px;
-    -ms-border-radius: 50px;
-    -o-border-radius: 50px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.gambar-logo {
+    width: 70px;
+    height: 70px;
+    border-radius: 10px;
 }
 
 .daftar {
