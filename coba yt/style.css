@@ -17,7 +17,11 @@ html{
 .gambar-logo {
     width: 70px;
     height: 70px;
-    border-radius: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
 }
 
 .daftar {
@@ -682,7 +686,6 @@ label {
     margin-bottom: 20px;
 }
 
-/* Responsive Images */
 img, .gambar-satu {
     max-width: 100%;
     height: auto;
@@ -690,7 +693,6 @@ img, .gambar-satu {
     align-items: center;
 }
 
-/* Responsive Section & Wrapper */
 .wrapper-1, .wrapper-2 {
     width: 100%;
     max-width: 1200px;
@@ -707,7 +709,6 @@ section {
     box-sizing: border-box;
 }
 
-/* Responsive Kolom */
 .kolom {
     margin: 32px auto;
     width: 100%;
@@ -716,7 +717,6 @@ section {
     box-sizing: border-box;
 }
 
-/* Responsive Tutor & Partner Cards */
 .tutor-list, .partners-list {
     flex-wrap: wrap;
     gap: 20px;
@@ -736,7 +736,6 @@ section {
     border-radius: 10px;
 }
 
-/* Responsive Footer */
 .footer {
     flex-direction: row;
     flex-wrap: wrap;
@@ -748,7 +747,6 @@ section {
     margin: 0 0 24px 0;
 }
 
-/* Responsive Daftar Isi */
 .daftar {
     width: 100%;
     max-width: 400px;
@@ -756,7 +754,6 @@ section {
     padding: 24px 12px;
 }
 
-/* Responsive Form */
 form, .contact-form {
     width: 100%;
     max-width: 500px;
@@ -772,14 +769,12 @@ form, .contact-form {
     padding: 16px 12px;
 }
 
-/* Responsive Sign Up Section */
 #sign-up {
     max-width: 400px;
     margin: 32px auto;
     padding: 24px 12px;
 }
 
-/* Responsive Navbar & Menu */
 @media (max-width: 900px) {
     .navbar {
         line-height: 60px;
@@ -851,7 +846,6 @@ form, .contact-form {
     }
 }
 
-/* Untuk bagian "Apa itu ginjal?" dan gambar ginjal satu */
 #home {
     display: flex;
     flex-direction: row;
@@ -879,7 +873,6 @@ form, .contact-form {
     display: block;
 }
 
-/* Responsive: gambar turun ke bawah di layar sempit */
 @media (max-width: 700px) {
     #home {
         flex-direction: column;
