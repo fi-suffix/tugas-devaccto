@@ -1,3 +1,6 @@
+html{
+    font-family: "Roboto", sans-serif;
+}
 *{
     text-decoration: none;
     margin: 0px;
@@ -111,7 +114,6 @@
 body {
     margin: 0px;
     padding: 0px;
-    font-family: 'open sans', sans-serif;
 }
 
 .wrapper-1 {
@@ -253,8 +255,8 @@ li {
  .kolom {
     font-size: 20px;
     font-weight: bold;
-    font-family: 'comic sans-ms';
     color: #364f6b;
+    font-weight: 500;
  }
 
  .deskripsi {
@@ -264,12 +266,12 @@ li {
  }
 
  h2{
-font-family: 'comic sans-ms';
-font-weight: 800px;
-font-size: 45px;
-margin-bottom: 20px;
-color: #364f6b;
-width: 100%;
+    font-weight: 800px;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #364f6b;
+    width: 100%;
+    font-family: Poppins;
  }
 
 a.tbl-biru {
@@ -885,6 +887,8 @@ form, .contact-form {
         margin-left: 0;
         margin-top: 16px;
     }
+
+
 }
 
 
